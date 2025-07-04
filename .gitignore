@@ -1,0 +1,31 @@
+# Ambiente virtual
+venv/
+.env
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de banco de dados
+*.sqlite3
+
+# Arquivos do Django
+db.sqlite3
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários de editores
+*.swp
+*.bak
+*.tmp
+
+# IDEs
+.vscode/
+.idea/
+
+# Arquivos de migração vazios (opcional)
+*/migrations/__pycache__/
+*/migrations/*.pyc
